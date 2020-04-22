@@ -203,7 +203,7 @@ stats = [
   ['Rewards Until Readjustment',    null,                                 "",                 1,          null     ], /* mining difficulty */
   ['Current Average Reward Time',   null,                                 "minutes",          1,          null     ], /* mining difficulty */
   ['Last Difficulty Start Block',   token.latestDifficultyPeriodStarted,  "",                 1,          null     ], /* mining difficulty */
-  ['Tokens Minted',                 token.tokensMinted,                   _CONTRACT_SYMBOL,   0.000000000000000001, null     ], /* supply */
+  ['Tokens Minted',                 token.tokensMinted,                   _CONTRACT_SYMBOL,   0.1, null     ], /* supply */
   ['Max Supply for Current Era',    token.maxSupplyForEra,                _CONTRACT_SYMBOL,   0.000000000000000001, null     ], /* mining */
   ['Supply Remaining in Era',       null,                                 _CONTRACT_SYMBOL,   0.000000000000000001, null     ], /* mining */
   ['Last Eth Reward Block',         token.lastRewardEthBlockNumber,       "",                 1,          null     ], /* mining */
