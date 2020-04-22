@@ -203,15 +203,15 @@ stats = [
   ['Rewards Until Readjustment',    null,                                 "",                 1,          null     ], /* mining difficulty */
   ['Current Average Reward Time',   null,                                 "minutes",          1,          null     ], /* mining difficulty */
   ['Last Difficulty Start Block',   token.latestDifficultyPeriodStarted,  "",                 1,          null     ], /* mining difficulty */
-  ['Tokens Minted',                 token.tokensMinted,                   _CONTRACT_SYMBOL,   100, null     ], /* supply */
-  ['Max Supply for Current Era',    token.maxSupplyForEra,                _CONTRACT_SYMBOL,   100, null     ], /* mining */
-  ['Supply Remaining in Era',       null,                                 _CONTRACT_SYMBOL,   100, null     ], /* mining */
+  ['Tokens Minted',                 token.tokensMinted,                   _CONTRACT_SYMBOL,   0.000000000000000001, null     ], /* supply */
+  ['Max Supply for Current Era',    token.maxSupplyForEra,                _CONTRACT_SYMBOL,   0.000000000000000001, null     ], /* mining */
+  ['Supply Remaining in Era',       null,                                 _CONTRACT_SYMBOL,   0.000000000000000001, null     ], /* mining */
   ['Last Eth Reward Block',         token.lastRewardEthBlockNumber,       "",                 1,          null     ], /* mining */
   ['Last Eth Block',                eth.blockNumber,                      "",                 1,          null     ], /* mining */
   ['Current Reward Era',            token.rewardEra,                      "/ 39",             1,          null     ], /* mining */
-  ['Current Mining Reward',         token.getMiningReward,                _CONTRACT_SYMBOL,   100, null     ], /* mining */
+  ['Current Mining Reward',         token.getMiningReward,                _CONTRACT_SYMBOL,   0.000000000000000001, null     ], /* mining */
   ['Epoch Count',                   token.epochCount,                     "",                 1,          null     ], /* mining */
-  ['Total Supply',                  token.totalSupply,                    _CONTRACT_SYMBOL,   100, null     ], /* supply */
+  ['Total Supply',                  token.totalSupply,                    _CONTRACT_SYMBOL,   0.000000000000000001, null     ], /* supply */
   ['',                              null,                                 "",                 1,          null     ], /* */
   ['Token Holders',                 null,                                 "holders",          1,          null     ], /* usage */
   ['Token Transfers',               null,                                 "transfers",        1,          null     ], /* usage */
